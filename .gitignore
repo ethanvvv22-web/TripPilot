@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.env
+.cache/
+traces/
+eval/harbor/jobs/
+
+# Google Places content may not be redistributed (Maps Platform terms); regenerate with
+# python -m trippilot.snapshot (and python -m trippilot.harbor_tasks for the Harbor tasks).
+data/uppsala_snapshot.json
+eval/harbor/tasks/
+
+# Superseded runs on the hand-written sample data; reported results use real data only.
+eval/results/baseline/
+eval/results/batched/
+eval/results/batched_rerun/
+eval/results/ab-legacy/
+eval/results/ab-batched/

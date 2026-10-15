@@ -1,0 +1,283 @@
+{
+  "overall": {
+    "runs": 30,
+    "first_attempt_valid": 0.8666666666666667,
+    "final_valid": 1.0,
+    "expectations_met": 0.9,
+    "task_success": 0.9,
+    "mean_preference_coverage": 0.9266666666666666,
+    "mean_submissions": 1.1333333333333333,
+    "mean_turns": 6.733333333333333,
+    "mean_input_tokens": 27242.833333333332,
+    "mean_output_tokens": 3990.3,
+    "mean_wall_seconds": 41.89333333333333
+  },
+  "by_task": {
+    "plan": {
+      "runs": 22,
+      "first_attempt_valid": 0.8636363636363636,
+      "final_valid": 1.0,
+      "expectations_met": 0.9090909090909091,
+      "task_success": 0.9090909090909091,
+      "mean_preference_coverage": 0.9227272727272727,
+      "mean_submissions": 1.1363636363636365,
+      "mean_turns": 5.636363636363637,
+      "mean_input_tokens": 21009.227272727272,
+      "mean_output_tokens": 3503.409090909091,
+      "mean_wall_seconds": 36.8
+    },
+    "replan": {
+      "runs": 8,
+      "first_attempt_valid": 0.875,
+      "final_valid": 1.0,
+      "expectations_met": 0.875,
+      "task_success": 0.875,
+      "mean_preference_coverage": 0.9375,
+      "mean_submissions": 1.125,
+      "mean_turns": 9.75,
+      "mean_input_tokens": 44385.25,
+      "mean_output_tokens": 5329.25,
+      "mean_wall_seconds": 55.9
+    }
+  },
+  "by_tag": {
+    "baseline": {
+      "runs": 1,
+      "first_attempt_valid": 1.0,
+      "final_valid": 1.0,
+      "expectations_met": 1.0,
+      "task_success": 1.0,
+      "mean_preference_coverage": 1.0,
+      "mean_submissions": 1,
+      "mean_turns": 4,
+      "mean_input_tokens": 17018,
+      "mean_output_tokens": 4655,
+      "mean_wall_seconds": 45.6
+    },
+    "budget": {
+      "runs": 3,
+      "first_attempt_valid": 0.6666666666666666,
+      "final_valid": 1.0,
+      "expectations_met": 1.0,
+      "task_success": 1.0,
+      "mean_preference_coverage": 1.0,
+      "mean_submissions": 1.3333333333333333,
+      "mean_turns": 7,
+      "mean_input_tokens": 29699,
+      "mean_output_tokens": 3885,
+      "mean_wall_seconds": 41.86666666666667
+    },
+    "closures": {
+      "runs": 6,
+      "first_attempt_valid": 0.8333333333333334,
+      "final_valid": 1.0,
+      "expectations_met": 1.0,
+      "task_success": 1.0,
+      "mean_preference_coverage": 0.8333333333333334,
+      "mean_submissions": 1.1666666666666667,
+      "mean_turns": 8,
+      "mean_input_tokens": 34256.5,
+      "mean_output_tokens": 4307.5,
+      "mean_wall_seconds": 46.916666666666664
+    },
+    "conflict": {
+      "runs": 1,
+      "first_attempt_valid": 0.0,
+      "final_valid": 1.0,
+      "expectations_met": 1.0,
+      "task_success": 1.0,
+      "mean_preference_coverage": 0.0,
+      "mean_submissions": 2,
+      "mean_turns": 10,
+      "mean_input_tokens": 45018,
+      "mean_output_tokens": 4740,
+      "mean_wall_seconds": 52.9
+    },
+    "delay": {
+      "runs": 1,
+      "first_attempt_valid": 1.0,
+      "final_valid": 1.0,
+      "expectations_met": 1.0,
+      "task_success": 1.0,
+      "mean_preference_coverage": 1.0,
+      "mean_submissions": 1,
+      "mean_turns": 3,
+      "mean_input_tokens": 10288,
+      "mean_output_tokens": 4335,
+      "mean_wall_seconds": 36.1
+    },
+    "dense": {
+      "runs": 4,
+      "first_attempt_valid": 0.75,
+      "final_valid": 1.0,
+      "expectations_met": 0.75,
+      "task_success": 0.75,
+      "mean_preference_coverage": 0.95,
+      "mean_submissions": 1.25,
+      "mean_turns": 5.5,
+      "mean_input_tokens": 19907.25,
+      "mean_output_tokens": 3428.5,
+      "mean_wall_seconds": 36.075
+    },
+    "distance": {
+      "runs": 4,
+      "first_attempt_valid": 1.0,
+      "final_valid": 1.0,
+      "expectations_met": 0.5,
+      "task_success": 0.5,
+      "mean_preference_coverage": 0.875,
+      "mean_submissions": 1,
+      "mean_turns": 6.75,
+      "mean_input_tokens": 31304.75,
+      "mean_output_tokens": 4820.25,
+      "mean_wall_seconds": 50.775
+    },
+    "evening": {
+      "runs": 1,
+      "first_attempt_valid": 1.0,
+      "final_valid": 1.0,
+      "expectations_met": 1.0,
+      "task_success": 1.0,
+      "mean_preference_coverage": 1.0,
+      "mean_submissions": 1,
+      "mean_turns": 8,
+      "mean_input_tokens": 31440,
+      "mean_output_tokens": 3179,
+      "mean_wall_seconds": 37.8
+    },
+    "museums": {
+      "runs": 1,
+      "first_attempt_valid": 1.0,
+      "final_valid": 1.0,
+      "expectations_met": 1.0,
+      "task_success": 1.0,
+      "mean_preference_coverage": 1.0,
+      "mean_submissions": 1,
+      "mean_turns": 4,
+      "mean_input_tokens": 10067,
+      "mean_output_tokens": 2833,
+      "mean_wall_seconds": 30.3
+    },
+    "preference-change": {
+      "runs": 3,
+      "first_attempt_valid": 1.0,
+      "final_valid": 1.0,
+      "expectations_met": 0.6666666666666666,
+      "task_success": 0.6666666666666666,
+      "mean_preference_coverage": 0.8333333333333334,
+      "mean_submissions": 1,
+      "mean_turns": 11.666666666666666,
+      "mean_input_tokens": 47222.333333333336,
+      "mean_output_tokens": 4943,
+      "mean_wall_seconds": 56.5
+    },
+    "replan": {
+      "runs": 8,
+      "first_attempt_valid": 0.875,
+      "final_valid": 1.0,
+      "expectations_met": 0.875,
+      "task_success": 0.875,
+      "mean_preference_coverage": 0.9375,
+      "mean_submissions": 1.125,
+      "mean_turns": 9.75,
+      "mean_input_tokens": 44385.25,
+      "mean_output_tokens": 5329.25,
+      "mean_wall_seconds": 55.9
+    },
+    "short-window": {
+      "runs": 4,
+      "first_attempt_valid": 1.0,
+      "final_valid": 1.0,
+      "expectations_met": 1.0,
+      "task_success": 1.0,
+      "mean_preference_coverage": 1.0,
+      "mean_submissions": 1,
+      "mean_turns": 4.75,
+      "mean_input_tokens": 14944.25,
+      "mean_output_tokens": 2583.75,
+      "mean_wall_seconds": 26.35
+    },
+    "split-hours": {
+      "runs": 2,
+      "first_attempt_valid": 1.0,
+      "final_valid": 1.0,
+      "expectations_met": 1.0,
+      "task_success": 1.0,
+      "mean_preference_coverage": 1.0,
+      "mean_submissions": 1,
+      "mean_turns": 6,
+      "mean_input_tokens": 18234,
+      "mean_output_tokens": 2627.5,
+      "mean_wall_seconds": 29.299999999999997
+    },
+    "time-change": {
+      "runs": 1,
+      "first_attempt_valid": 1.0,
+      "final_valid": 1.0,
+      "expectations_met": 1.0,
+      "task_success": 1.0,
+      "mean_preference_coverage": 1.0,
+      "mean_submissions": 1,
+      "mean_turns": 9,
+      "mean_input_tokens": 40554,
+      "mean_output_tokens": 4601,
+      "mean_wall_seconds": 49.0
+    },
+    "travel-mode": {
+      "runs": 4,
+      "first_attempt_valid": 1.0,
+      "final_valid": 1.0,
+      "expectations_met": 1.0,
+      "task_success": 1.0,
+      "mean_preference_coverage": 1.0,
+      "mean_submissions": 1,
+      "mean_turns": 5.75,
+      "mean_input_tokens": 24604,
+      "mean_output_tokens": 4189,
+      "mean_wall_seconds": 42.75
+    },
+    "weather": {
+      "runs": 3,
+      "first_attempt_valid": 0.6666666666666666,
+      "final_valid": 1.0,
+      "expectations_met": 1.0,
+      "task_success": 1.0,
+      "mean_preference_coverage": 1.0,
+      "mean_submissions": 1.3333333333333333,
+      "mean_turns": 6.666666666666667,
+      "mean_input_tokens": 32458.333333333332,
+      "mean_output_tokens": 4610.666666666667,
+      "mean_wall_seconds": 44.766666666666666
+    }
+  },
+  "first_attempt_violation_types": {
+    "insufficient_travel_time": 5
+  },
+  "errors": [],
+  "failures": [
+    {
+      "id": "real-sat-walk-viking-fika",
+      "status": "accepted",
+      "failed_expectations": [
+        "no stop of type viking"
+      ],
+      "final_violation_types": []
+    },
+    {
+      "id": "real-sat-packed-day",
+      "status": "accepted",
+      "failed_expectations": [
+        "no stop of type fika"
+      ],
+      "final_violation_types": []
+    },
+    {
+      "id": "real-replan-add-viking",
+      "status": "accepted",
+      "failed_expectations": [
+        "no stop of type viking"
+      ],
+      "final_violation_types": []
+    }
+  ]
+}

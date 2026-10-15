@@ -1,0 +1,9 @@
+{
+  "_comment": "Hand corrections to tags inferred from Google place types, keyed by the place name Google returns. Reviewed by a local resident on 2026-10-13; Stadsträdgården and Church of Old Uppsala added on 2026-10-15 after benchmark runs exposed missing tags. Apply without API calls: python -m trippilot.snapshot --retag",
+  "Uppsala castle ruins": {"remove": ["museum", "indoor"], "add": ["outdoor", "history"]},
+  "Uppsala Art Museum": {"remove": ["cafe", "fika", "coffee", "food"]},
+  "Old Uppsala Archaeological Park": {"add": ["outdoor", "viking", "park"]},
+  "Actic Uppsala Centralbadet": {"add": ["swimming", "indoor"]},
+  "Stadsträdgården": {"add": ["garden"]},
+  "Church of Old Uppsala": {"add": ["viking"]}
+}

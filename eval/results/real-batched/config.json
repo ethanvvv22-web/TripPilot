@@ -1,0 +1,10 @@
+{
+  "tools": "batched",
+  "model": "gpt-5-mini",
+  "workers": 2,
+  "dataset": "snapshot-uppsala",
+  "repeats": 1,
+  "scenarios": "eval/scenarios_real.json",
+  "only": null,
+  "started": "2026-10-13T15:26:43"
+}
